@@ -1,8 +1,12 @@
 #csharp, #ruby, #python {
   display: none;
-} 
+}
 
 .questions {
   font-style: italic;
   font-weight: bolder;
+}
+
+.results {
+  text-align: center;
 }
