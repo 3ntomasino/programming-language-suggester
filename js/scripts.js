@@ -13,11 +13,9 @@ $(document).ready(function() {
       $("#csharp").show();
     } else if (answer2 === "advanced" || answer4 === "robot") {
       $("#python").show();
+    } else {
+      $("#nothing").show();
     }
-    if (!$("input[name='html_elements']:checked").val()) {
-   alert('Nothing is checked!');
-   $("#nothing").show();
-}
     $("#blanks").hide();
     event.preventDefault();
   });
