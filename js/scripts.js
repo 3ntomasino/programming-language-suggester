@@ -14,6 +14,10 @@ $(document).ready(function() {
     } else if (answer2 === "advanced" || answer4 === "robot") {
       $("#python").show();
     }
+    if (!$("input[name='html_elements']:checked").val()) {
+   alert('Nothing is checked!');
+   $("#nothing").show();
+}
     $("#blanks").hide();
     event.preventDefault();
   });
